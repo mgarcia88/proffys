@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import './styles.css';
 
 const logoImg =  require("../../assets/images/logo.svg");
@@ -20,12 +22,12 @@ function Landing(){
 				<img src={backgroundImage} alt="Plataforma de estudos" className="hero-image"></img>
 
 				<div className="buttons-container">
-					<a href="#" className="study">
-						<img src={studyIcon}></img> Estudar
-					</a>
-					<a href="#" className="give-classes">
-						<img src={giveClassesIcon}></img> Estudar
-					</a>
+					<Link to="/teachers-list" className="study">
+						<img src={studyIcon} alt="Dar aulas"></img> Estudar
+					</Link>
+					<Link to="/teachers-form" className="give-classes">
+						<img src={giveClassesIcon} alt="Estudar"></img> Ensinar
+					</Link>
 				
 				</div>
 				<span className="total-connections">Total de 200 conexões 
