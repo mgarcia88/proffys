@@ -40,8 +40,33 @@ function TeachersList(){
 						</p>
 						<footer>
 							<p>
-								Preço/Hora:
-								<strong>R$ 80,00</strong>
+								Preço/Hora: 
+								<strong> R$ 80,00</strong>
+							</p>
+							<button type="button">
+								<img src={whatsappicon} alt="Whatsapp"></img>
+								Entre em contato
+							</button>
+						</footer>
+					</article>
+				</main>
+
+				<main className="teacher-item">
+					<article>
+						<header>
+							<img src='https://avatars2.githubusercontent.com/u/18174474?s=60&v=4' alt="avatar"></img>
+							<div>
+								<strong>Valter jr</strong>
+								<span>Redes de computadores</span>
+							</div>
+						</header>
+						<p>
+							Professor mais maravilhoso do mundo
+						</p>
+						<footer>
+							<p>
+								Preço/Hora: 
+								<strong> R$ 180,00</strong>
 							</p>
 							<button type="button">
 								<img src={whatsappicon} alt="Whatsapp"></img>
