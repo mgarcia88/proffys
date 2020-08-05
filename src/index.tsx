@@ -11,7 +11,7 @@ ReactDOM.render(
 	<Switch>
 		<Route path="/" component={App} exact></Route>
 		<Route path="/teachers-list" component={TeachersList}></Route>
-		<Route path="teachers-form" component={TeachersForm}></Route>
+		<Route path="/teachers-form" component={TeachersForm}></Route>
  </Switch>
 	</BrowserRouter>,
   document.getElementById('root')
